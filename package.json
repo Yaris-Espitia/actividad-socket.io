@@ -1,0 +1,21 @@
+{
+  "name": "node-chat",
+  "version": "0.0.1",
+  "description": "Un chat creado con NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaris-Espitia/actividad-socket.io.git"
+  },
+  "author": "Yaris Espitia, Carlos Daniel Viñas",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
